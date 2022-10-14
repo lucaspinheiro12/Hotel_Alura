@@ -358,7 +358,7 @@ public class Buscar extends JFrame {
 						limparTabelaReservas();
 						preencherTabelaReservas();
 					}
-				}else if ( ! valorDeVerificacao.equals(tbReservas.getSelectedRow())) {
+				}else if ( ! valorDeVerificacao.equals(tbHospedes.getSelectedRow())) {
 
 					String hospedes = tbHospedes.getValueAt(filaHospedes, 0).toString();
 					int confirmarh = JOptionPane.showConfirmDialog(null, "Deseja excluir os dados?");
